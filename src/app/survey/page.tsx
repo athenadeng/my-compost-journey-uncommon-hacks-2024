@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function hello() {
+export default function Survey() {
   return (
     <>
       <h1>First Post</h1>

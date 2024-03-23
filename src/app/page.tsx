@@ -1,8 +1,7 @@
-import { Link } from 'react-router-dom';
+
 import Image from 'next/image';
 import styles from './page.module.css';
 import React from 'react';
-import hello from './survey';
 
 const Home: React.FC = () => {
   return (
@@ -15,7 +14,7 @@ const Home: React.FC = () => {
 
       <div className={styles.center}>
         {/* Using Link with an a tag wrapping the Image */}
-        <a href="survey/hello">
+        <a href="/survey">
             <Image
               className={styles.compostImage}
               src="/compost-bin.png" // Ensure the image exists in your public folder
@@ -24,7 +23,7 @@ const Home: React.FC = () => {
               height={250}
               priority
             />
-   </a>
+        </a>
       </div>
     
       <button className={styles.startButton}>Start Survey</button>
