@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import styles from './page.module.css';
 import React from 'react';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Home: React.FC = () => {
   return (
