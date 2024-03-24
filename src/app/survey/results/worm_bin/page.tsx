@@ -13,8 +13,8 @@ function worm_bin() {
       <div className={styles.center}>
         <Image
           className={styles.compostImage}
-          src="/compost-bin.png" // Ensure the image exists in your public folder
-          alt="Compost Bin"
+          src="/worm_bin.jpeg" // Ensure the image exists in your public folder
+          alt="Worm Bin"
           width={250}
           height={250}
           priority
@@ -29,21 +29,34 @@ function worm_bin() {
       <div className={styles.center}> 
         <div className={styles.card}>
           <h2>Pros:</h2>
-          <p>Learn about the benefits of composting for you and the environment.</p>
+          <ul>
+  <li>Efficient composting</li>
+  <li>Small-scale</li>
+  <li>Odor Control</li>
+  <li>High-Quality Compost</li>
+  <li>Low Maintenance</li>
+
+</ul>
         </div>
 
         <a href="#encountering-problems" className={styles.card}>
           <h2>Cons:</h2>
-          <p>Get practical tips on how to start composting effectively today.</p>
+          <ul>
+  <li>Moisture Control</li>
+  <li>Temperature Sensitivity</li>
+  <li>Limited Capacity</li>
+  <li>Pest Concerns</li>
+  <li>Species Sensitivity</li>
+
+</ul>
         </a>
       </div>
 
       <div className={styles.center}>
         <div>
           <h2>How to:</h2>
-          <p>Buy a worm bin &#40can also be made with any 3 to 12-gallon plastic storage bin&#41, 
-            and fill with bedding of shredded newspaper or leaves. The worms needed here are red wigglers
-            &#40Eisenia fetida&#41, ......
+          <p>
+To start a worm bin composting system, prepare bedding material like shredded newspaper, add composting worms, then regularly feed them with kitchen scraps while maintaining proper moisture levels. Harvest compost periodically, leaving worms behind, to produce nutrient-rich soil conditioner for plants.
             </p>
         </div>
       </div>

@@ -58,7 +58,9 @@ return (
                       <p className="h3">Got Leaves? (or paper/straw?)</p>
                       <br></br>
                       <button type="button" className="btn btn-success btn-lg me-2" onClick={() => handleClick('yes_leaves')}>Yes!</button>
+                      <a href="/survey/results/worm_bin_green_cone">
                       <button type="button" className="btn btn-success btn-lg" onClick={() => handleClick('no_leaves')}>Nope!</button>
+                      </a>
                   </>
               )}
 
@@ -128,11 +130,6 @@ return (
               {selectedOption === 'yes_DIY' && (
                   <>
                       <p className="lead">Explore DIY options like wire bins, brick bins, cinder block bins, or wooden/pallet bins.</p>
-                  </>
-              )}
-              {selectedOption === 'no_leaves' && (
-                  <>
-                      <p className="lead">Green cones or worm bins might be suitable.</p>
                   </>
               )}
               {(selectedOption === 'yes_simple' || selectedOption === 'no_hole') && (
