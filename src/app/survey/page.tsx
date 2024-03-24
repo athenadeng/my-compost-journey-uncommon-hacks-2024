@@ -100,11 +100,9 @@ const handleClick = (option: React.SetStateAction<string>) => {
          <button type="button" className="btn btn-info" onClick={() => handleClick('no_money')}>mmm..count me out</button>
        </>
       )}
-      {selectedOption === 'ick' && (
-        <>
-          <p>Bokashi</p>
-        </>
-      )}
+      <a href="/survey/results/bokashi">
+      {selectedOption === 'ick' }
+      </a>
       {selectedOption === 'love' && (
         <>
 
