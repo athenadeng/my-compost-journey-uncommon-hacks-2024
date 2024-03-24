@@ -1,3 +1,4 @@
+
 .main {
   display: flex;
   flex-direction: column;
@@ -5,6 +6,7 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+
 }
 
 .description {
@@ -52,6 +54,8 @@
   background: rgba(var(--card-rgb), 0);
   border: 1px solid rgba(var(--card-border-rgb), 0);
   transition: background 200ms, border 200ms;
+  justify-content: center;
+
 }
 
 .card span {
@@ -78,7 +82,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 4rem 0;
+  padding: 0;
 }
 
 .center::before {
@@ -103,6 +107,10 @@
   position: absolute;
   filter: blur(45px);
   transform: translateZ(0);
+}
+
+.text-center {
+  text-align: center;
 }
 
 .logo {
