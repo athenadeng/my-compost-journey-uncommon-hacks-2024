@@ -7,9 +7,7 @@ function worm_bin() {
     return (
       <main className={styles.main}>
       <div className={styles.header}>
-        <h1>Welcome to your compost journey!</h1>
-        <br />
-        <p className={styles.center}>Find the best compost style for your environment and lifestyle.</p>
+        <h1>The best compost for you is...a worm bin!</h1>
       </div>
 
       <div className={styles.center}>
@@ -23,27 +21,31 @@ function worm_bin() {
         />
       </div>
 
-      <div>
-        {/* Using Link with an a tag wrapping the Image */}
-        <a href="/survey">
-          <button className={styles.getStartedButton}>get started here!</button>
-        </a>
+      <div className={styles.center}>
+        <p>Vermicomposting, or composting using worms, is a relatively easy and hassle-free way to turn food waste into a rich and nutritious compost for your soil!</p>
       </div>
 
-      <div className={styles.intro}>
-        <p>Take our quick survey to start your composting adventure and help the planet!</p>
+    {/* only if there's a pro con section on the infographic*/}
+      <div className={styles.center}> 
+        <div className={styles.card}>
+          <h2>Pros:</h2>
+          <p>Learn about the benefits of composting for you and the environment.</p>
+        </div>
+
+        <a href="#encountering-problems" className={styles.card}>
+          <h2>Cons:</h2>
+          <p>Get practical tips on how to start composting effectively today.</p>
+        </a>
       </div>
 
       <div className={styles.center}>
-        <a href="#why-compost" className={styles.card}>
-          <h2>Why Compost? &rarr;</h2>
-          <p>Learn about the benefits of composting for you and the environment.</p>
-        </a>
-
-        <a href="#encountering-problems" className={styles.card}>
-          <h2>Encountering Problems? &rarr;</h2>
-          <p>Get practical tips on how to start composting effectively today.</p>
-        </a>
+        <div>
+          <h2>How to:</h2>
+          <p>Buy a worm bin &#40can also be made with any 3 to 12-gallon plastic storage bin&#41, 
+            and fill with bedding of shredded newspaper or leaves. The worms needed here are red wigglers
+            &#40Eisenia fetida&#41, ......
+            </p>
+        </div>
       </div>
     </main>
     );
