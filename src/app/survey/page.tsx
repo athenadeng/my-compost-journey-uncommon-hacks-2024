@@ -40,7 +40,7 @@ return (
                   <>
                       <p>How do you feel about worms?</p>
                       <button type="button" className="btn btn-primary me-2" onClick={() => handleClick('ick')}>Ick!</button>
-                      <a href="/survey/results/">
+                      <a href="/survey/results/worm_bin">
                         <button type="button" className="btn btn-primary" onClick={() => handleClick('love')}>Love them!</button>
                       </a>
                   </>
