@@ -13,12 +13,12 @@ function worm_bin_green_cone() {
 
           <div className={styles.center}>
             <Image
-              className={styles.compostImage}
               src="/worm_bin.jpeg" // Ensure the image exists in your public folder
               alt="Worm Bin"
-              width={250}
+              width={350}
               height={250}
-              priority
+          className={styles.roundedImage}
+          priority
             />
           </div>
 
@@ -54,6 +54,7 @@ function worm_bin_green_cone() {
           <div className={styles.center}>
             <div>
               <h2>How to:</h2>
+              <br></br>
               <p>
                 To start a worm bin composting system, prepare bedding material like shredded newspaper, add composting worms, then regularly feed them with kitchen scraps while maintaining proper moisture levels. Harvest compost periodically, leaving worms behind, to produce nutrient-rich soil conditioner for plants.
               </p>
@@ -73,7 +74,7 @@ function worm_bin_green_cone() {
 
           <div className={styles.center}>
             <Image
-              className={styles.compostImage}
+              className={styles.roundedImage}
               src="/green_cone.webp" // Ensure the image exists in your public folder
               alt="Green Cone"
               width={250}
@@ -113,6 +114,7 @@ function worm_bin_green_cone() {
           <div className={styles.center}>
             <div>
               <h2>How to:</h2>
+              <br></br>
               <p>
               To start using a Green Cone Solar Digester, dig a hole according to the provided specifications and partially bury the cone-shaped digester in a sunny spot. Begin adding organic waste, ensuring it's free from meat, dairy, and oily foods, and monitor the decomposition process regularly to maintain optimal conditions for efficient composting.
               </p>
