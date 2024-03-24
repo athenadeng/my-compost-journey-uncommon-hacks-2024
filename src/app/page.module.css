@@ -68,6 +68,14 @@
   margin-bottom: 0.7rem;
 }
 
+.getStartedButton {
+  font-size: 1.0rem;
+  text-align: center;
+  color: black;
+  padding: 10px 10px;
+  border-radius: 2px;
+}
+
 .card p {
   margin: 0;
   opacity: 0.6;
