@@ -38,7 +38,9 @@ function DynamicButton() {
         <>
           <p>How do you feel about worms?</p>
           <button type="button" className="btn btn-primary" onClick={() => handleClick('ick')}>Ick!</button>
+          <a href="/survey/results/worm_bin">
           <button type="button" className="btn btn-primary" onClick={() => handleClick('love')}>No problem!</button>
+          </a>
         </>
       )}
       
@@ -105,7 +107,6 @@ function DynamicButton() {
       )}
       {selectedOption === 'love' && (
         <>
-          <p>worm bin</p>
 
         </>
       )}
