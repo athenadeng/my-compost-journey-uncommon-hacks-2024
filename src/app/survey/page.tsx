@@ -43,10 +43,11 @@ return (
 
               {selectedOption === 'inside' && (
                   <>
-                      <p className="h3">How do you feel about worms?</p>
-                      <br></br>
-                      <button type="button" className="btn btn-success btn-lg me-2" onClick={() => handleClick('ick')}>Ick!</button>
-                      <button type="button" className="btn btn-success btn-lg" onClick={() => handleClick('love')}>Love them!</button>
+                      <p>How do you feel about worms?</p>
+                      <button type="button" className="btn btn-primary me-2" onClick={() => handleClick('ick')}>Ick!</button>
+                      <a href="/survey/results/worm_bin">
+                        <button type="button" className="btn btn-primary" onClick={() => handleClick('love')}>Love them!</button>
+                      </a>
                   </>
               )}
 
@@ -117,11 +118,6 @@ return (
                       <p className="lead">Consider Bokashi composting.</p>
                   </>
               )}
-              {selectedOption === 'love' && (
-                  <>
-                      <p className="lead">Consider starting a worm bin.</p>
-                  </>
-              )}
               {selectedOption === 'no_money' && (
                   <>
                       <p className="lead">Look into circular or enclosed bins as economical options.</p>
@@ -164,3 +160,4 @@ return (
 }
 
 export default DynamicButton;
+
