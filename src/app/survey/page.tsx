@@ -44,7 +44,9 @@ return (
               {selectedOption === 'inside' && (
                   <>
                       <p>How do you feel about worms?</p>
-                      <button type="button" className="btn btn-primary me-2" onClick={() => handleClick('ick')}>Ick!</button>
+                      <a href="/survey/results/bokashi">
+                        <button type="button" className="btn btn-primary me-2" onClick={() => handleClick('ick')}>Ick!</button>
+                      </a>
                       <a href="/survey/results/worm_bin">
                         <button type="button" className="btn btn-primary" onClick={() => handleClick('love')}>Love them!</button>
                       </a>
@@ -111,11 +113,6 @@ return (
                       <br></br>
                       <button type="button" className="btn btn-success btn-lg me-2" onClick={() => handleClick('yes_money')}>Okay!</button>
                       <button type="button" className="btn btn-success btn-lg" onClick={() => handleClick('no_money')}>mmm..count me out</button>
-                  </>
-              )}
-              {selectedOption === 'ick' && (
-                  <>
-                      <p className="lead">Consider Bokashi composting.</p>
                   </>
               )}
               {selectedOption === 'no_money' && (
