@@ -12,11 +12,11 @@ function worm_bin() {
 
       <div className={styles.center}>
         <Image
-          className={styles.compostImage}
           src="/worm_bin.jpeg" // Ensure the image exists in your public folder
           alt="Worm Bin"
-          width={250}
+          width={340}
           height={250}
+          className={styles.roundedImage}
           priority
         />
       </div>

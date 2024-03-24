@@ -36,6 +36,10 @@
   border-radius: var(--border-radius);
 }
 
+.roundedImage {
+  border-radius: 25px; /* Adjust the value for desired corner roundness */
+}
+
 .code {
   font-weight: 700;
   font-family: var(--font-mono);
@@ -180,6 +184,7 @@
     padding: 1rem;
   }
 
+ 
   .description p,
   .description div {
     display: flex;

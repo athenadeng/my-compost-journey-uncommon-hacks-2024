@@ -10,7 +10,7 @@ const handleClick = (option: React.SetStateAction<string>) => {
 };
 
 return (
-  <div className="d-flex justify-content-center align-items-center" style={{ minHeight: "100vh" }}>
+    <div className="d-flex justify-content-center align-items-center" style={{ minHeight: "100vh", backgroundImage: "url('/background.png')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <div className = "text-center">
           <div className="col">
               <br />
