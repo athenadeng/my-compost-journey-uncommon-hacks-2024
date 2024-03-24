@@ -19,9 +19,6 @@
   z-index: 2;
   font-family: var(--font-mono);
 }
-.roundedImage {
-  border-radius: 25px; /* Adjust the value for desired corner roundness */
-}
 
 .description a {
   display: flex;

@@ -35,12 +35,12 @@ const Home: React.FC = () => {
       </div>
 
       <div className={styles.center}>
-        <a href="#why-compost" className={styles.card}>
+        <a href="/why-compost" className={styles.card}>
           <h2>Why Compost? &rarr;</h2>
           <p>Learn about the benefits of composting for you and the environment.</p>
         </a>
 
-        <a href="#encountering-problems" className={styles.card}>
+        <a href="/encountering-problems" className={styles.card}>
           <h2>Encountering Problems? &rarr;</h2>
           <p>Get practical tips on how to start composting effectively today.</p>
         </a>

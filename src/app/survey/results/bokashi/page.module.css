@@ -19,9 +19,6 @@
   z-index: 2;
   font-family: var(--font-mono);
 }
-.roundedImage {
-  border-radius: 25px; /* Adjust the value for desired corner roundness */
-}
 
 .description a {
   display: flex;
@@ -37,6 +34,10 @@
   background-color: rgba(var(--callout-rgb), 0.5);
   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
+}
+
+.roundedImage {
+  border-radius: 25px; /* Adjust the value for desired corner roundness */
 }
 
 .code {
@@ -183,6 +184,7 @@
     padding: 1rem;
   }
 
+ 
   .description p,
   .description div {
     display: flex;

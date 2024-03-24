@@ -7,22 +7,24 @@ function worm_bin() {
     return (
       <main className={styles.main}>
       <div className={styles.header}>
-        <h1>The best compost for you is...a worm bin!</h1>
+        <h1>The best compost for you is...a bokashi!</h1>
+        <br></br>
       </div>
 
       <div className={styles.center}>
         <Image
-          src="/worm_bin.jpeg" // Ensure the image exists in your public folder
-          alt="Worm Bin"
+          src="/bokashi.webp" 
+          alt="Bokashi"
           width={340}
           height={250}
           className={styles.roundedImage}
           priority
         />
       </div>
+      <br></br>
 
       <div className={styles.center}>
-        <p>Vermicomposting, or composting using worms, is a relatively easy and hassle-free way to turn food waste into a rich and nutritious compost for your soil!</p>
+        <p>Bokashi composting is an anaerobic process that ferments organic waste in a sealed container, using a specific inoculant, to quickly produce a nutrient-rich compost that can be directly buried in the soil.</p>
       </div>
 
     {/* only if there's a pro con section on the infographic*/}
@@ -30,11 +32,11 @@ function worm_bin() {
         <div className={styles.card}>
           <h2>Pros:</h2>
           <ul>
-  <li>Efficient composting</li>
-  <li>Small-scale</li>
+  <li>Speed</li>
+  <li>Versatility</li>
   <li>Odor Control</li>
-  <li>High-Quality Compost</li>
-  <li>Low Maintenance</li>
+  <li>Space-Efficient</li>
+  <li>Soil Enhancer</li>
 
 </ul>
         </div>
@@ -42,12 +44,11 @@ function worm_bin() {
         <a href="#encountering-problems" className={styles.card}>
           <h2>Cons:</h2>
           <ul>
-  <li>Moisture Control</li>
-  <li>Temperature Sensitivity</li>
-  <li>Limited Capacity</li>
-  <li>Pest Concerns</li>
-  <li>Species Sensitivity</li>
-
+  <li>Initial Cost</li>
+  <li>Continuous Expense</li>
+  <li>Secondary Process</li>
+  <li>Maintenance</li>
+  <li>Limited End Use</li>
 </ul>
         </a>
       </div>
@@ -55,8 +56,9 @@ function worm_bin() {
       <div className={styles.center}>
         <div>
           <h2>How to:</h2>
+          <br></br>
           <p>
-To start a worm bin composting system, prepare bedding material like shredded newspaper, add composting worms, then regularly feed them with kitchen scraps while maintaining proper moisture levels. Harvest compost periodically, leaving worms behind, to produce nutrient-rich soil conditioner for plants.
+To use a Bokashi composting system, layer your kitchen waste in the Bokashi bin, sprinkle Bokashi bran on each layer, press down to remove air, and seal the lid tightly. Drain the liquid produced every few days to prevent odors, and when the bin is full, let it ferment for two weeks before burying the contents in the garden soil or adding it to a traditional compost pile.
             </p>
         </div>
       </div>
