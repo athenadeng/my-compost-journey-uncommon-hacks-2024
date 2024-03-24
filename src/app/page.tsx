@@ -2,33 +2,34 @@
 import Image from 'next/image';
 import styles from './page.module.css';
 import React from 'react';
-import "bootstrap/dist/css/bootstrap.min.css";
 
 const Home: React.FC = () => {
   return (
     <main className={styles.main}>
       <div className={styles.header}>
-        <h1>Welcome to the Compost Journey!</h1>
+        <h1>Welcome to your compost journey!</h1>
         <br />
-        <p className={styles.center}>Discover how easy and impactful composting can be.</p>
+        <p className={styles.center}>Find the best compost style for your environment and lifestyle.</p>
       </div>
 
       <div className={styles.center}>
+        <Image
+          className={styles.compostImage}
+          src="/compost-bin.png" // Ensure the image exists in your public folder
+          alt="Compost Bin"
+          width={250}
+          height={250}
+          priority
+        />
+      </div>
+
+      <div>
         {/* Using Link with an a tag wrapping the Image */}
         <a href="/survey">
-            <Image
-              className={styles.compostImage}
-              src="/compost-bin.png" // Ensure the image exists in your public folder
-              alt="Compost Bin"
-              width={250}
-              height={250}
-              priority
-            />
+          <button className={styles.getStartedButton}>get started here!</button>
         </a>
       </div>
-    
-      <button className={styles.startButton}>Start Survey</button>
-      
+
       <div className={styles.intro}>
         <p>Take our quick survey to start your composting adventure and help the planet!</p>
       </div>
