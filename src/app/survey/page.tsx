@@ -37,7 +37,9 @@ return (
                       <br></br>
                       <button type="button" className="btn btn-success btn-lg me-2" onClick={() => handleClick('food')}>Food Waste only</button>
                       <button type="button" className="btn btn-success btn-lg me-2" onClick={() => handleClick('food_yard')}>Food waste and yard mix</button>
+                      <a href="/survey/results/pile_bin">
                       <button type="button" className="btn btn-success btn-lg" onClick={() => handleClick('leaves')}>Just Leaves</button>
+                      </a>
                   </>
               )}
 
@@ -68,7 +70,9 @@ return (
                   <>
                       <p className="h3">Want super simple?</p>
                       <br></br>
+                      <a href="/survey/results/piles_heaps">
                       <button type="button" className="btn btn-success btn-lg me-2" onClick={() => handleClick('yes_simple')}>Yes, please!</button>
+                      </a>
                       <button type="button" className="btn btn-success btn-lg" onClick={() => handleClick('no_simple')}>Not too simple!</button>
                   </>
               )}
@@ -86,8 +90,12 @@ return (
                   <>
                       <p className="h3">Can you dig a hole for the compost?</p>
                       <br></br>
+                      <a href="/survey/results/piles_heaps">
                       <button type="button" className="btn btn-success btn-lg me-2" onClick={() => handleClick('no_hole')}>No</button>
+                      </a>
+                      <a href="/survey/results/pits_trenches">
                       <button type="button" className="btn btn-success btn-lg" onClick={() => handleClick('yes_hole')}>Yes</button>
+                      </a>
                   </>
               )}
 
@@ -104,7 +112,9 @@ return (
                   <>
                       <p className="h3">Willing to DIY?</p>
                       <br></br>
+                      <a href="/survey/results/enclosed_wooden_bin">
                       <button type="button" className="btn btn-success btn-lg me-2" onClick={() => handleClick('yes_DIY')}>Oh yeah!</button>
+                      </a>
                       <button type="button" className="btn btn-success btn-lg" onClick={() => handleClick('no_DIY')}>Not really!</button>
                   </>
               )}
@@ -113,40 +123,17 @@ return (
                   <>
                       <p className="h3">Willing to spend $$?</p>
                       <br></br>
+                      <a href="/survey/results/tumbler_rolling_pin">
                       <button type="button" className="btn btn-success btn-lg me-2" onClick={() => handleClick('yes_money')}>Okay!</button>
+                      </a>
+                      <a href="/survey/results/enclosed_bin">
                       <button type="button" className="btn btn-success btn-lg" onClick={() => handleClick('no_money')}>mmm..count me out</button>
+                      </a>
                   </>
               )}
-              {selectedOption === 'no_money' && (
-                  <>
-                      <p className="lead">Look into circular or enclosed bins as economical options.</p>
-                  </>
-              )}
-              {selectedOption === 'yes_money' && (
-                  <>
-                      <p className="lead">Consider investing in a tumbler or rolling bin.</p>
-                  </>
-              )}
-              {selectedOption === 'yes_DIY' && (
-                  <>
-                      <p className="lead">Explore DIY options like wire bins, brick bins, cinder block bins, or wooden/pallet bins.</p>
-                  </>
-              )}
-              {(selectedOption === 'yes_simple' || selectedOption === 'no_hole') && (
-                  <>
-                      <p className="lead">Consider starting with simple piles or heaps.</p>
-                  </>
-              )}
-              {selectedOption === 'yes_hole' && (
-                  <>
-                      <p className="lead">Composting in pits or trenches could be ideal.</p>
-                  </>
-              )}
-              {selectedOption === 'leaves' && (
-                  <>
-                      <p className="lead">A simple pile or bin works well for just leaves.</p>
-                  </>
-              )}
+              
+            
+            
           </div>
       </div>
   </div>
